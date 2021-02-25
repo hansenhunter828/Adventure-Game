@@ -112,6 +112,8 @@ namespace Adventure_Game
                 else if (scene == 1) { scene = 4; }
             }
             SoundPlayer vomit = new SoundPlayer();
+            SoundPlayer victoryCry = new SoundPlayer();
+            SoundPlayer hey = new SoundPlayer();
             switch (scene) 
             {
                 case 0:
@@ -242,7 +244,6 @@ namespace Adventure_Game
                     break;
                 case 12:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_12;
-                    SoundPlayer hey = new SoundPlayer();
                     hey.Play();
 
                     outputLabel.Text = "Look I know you were about to be executed but Ill pardon you if you aid us says a guard. What do you do?";
@@ -252,6 +253,8 @@ namespace Adventure_Game
                     break;
                 case 13:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_12;
+                    SoundPlayer thankYou = new SoundPlayer();
+                    thankYou.Play();
 
                     outputLabel.Text = "Thank you Ill make sure my higher ups know what you have done. We must hurry to aid the men at the front gate";
                     outputLabel.Text += " You arrive at the front gate. Do you help the men on the wall or do you aid the men on the ground?";
@@ -261,6 +264,8 @@ namespace Adventure_Game
                     break;
                 case 14:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_14;
+                    SoundPlayer killThemAll = new SoundPlayer();
+                    killThemAll.Play();
 
                     outputLabel.Text = "A soldier hands you a bow and tells you to start shooting the orcs. Do you take time to aim or fire as fast as you can";
 
@@ -269,6 +274,7 @@ namespace Adventure_Game
                     break;
                 case 15:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_15;
+                    victoryCry.Play();
 
                     outputLabel.Text = "You run to help the soldiers on the ground and after tons of hacking and slashing the orc army finally retreats";
                     outputLabel.Text = "Press M to continue";
@@ -279,6 +285,7 @@ namespace Adventure_Game
                     break;
                 case 16:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_16;
+                    victoryCry.Play();
 
                     outputLabel.Text = "You take time to aim and you manage to fend of the orc attack(press M to continue)";
 
@@ -288,6 +295,7 @@ namespace Adventure_Game
                     break;
                 case 17:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_17;
+                    hey.Play();
 
                     outputLabel.Text = "HEY take your time to aim a soldier yells at you(press M to continue)";
 
@@ -297,6 +305,7 @@ namespace Adventure_Game
                     break;
                 case 18:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_19;
+                    hey.Play();
 
                     outputLabel.Text = "The soldier that promised you pardon walks up to you and says good job. Now i can offer you two things.";
                     outputLabel.Text += "The first one is the pardon I promised you and the other one is the pardon and an offer to join our army.";
@@ -307,6 +316,8 @@ namespace Adventure_Game
                     break;
                 case 19:
                     pictureBox1.BackgroundImage = Properties.Resources.Adventure_game_scene_18;
+                    SoundPlayer stab = new SoundPlayer();
+                    stab.Play();
 
                     outputLabel.Text = "Thats great to hear but I lied I can never let a criminal scum like you live he says as you feel something cold plunge into you stomach as you fall over and die";
                     outputLabel.Text += "Press M to continue";
@@ -317,6 +328,8 @@ namespace Adventure_Game
                     break;
                 case 20:
                     pictureBox1.BackgroundImage = Properties.Resources.adventurea_game_scene_20;
+                    SoundPlayer ok = new SoundPlayer();
+                    ok.Play();
 
                     outputLabel.Text = "well that sucks, well Im a man of my word you have been pardoned just make sure you dont do anything else bad";
                     outputLabel.Text += "Or we will be meeting again";
@@ -327,6 +340,8 @@ namespace Adventure_Game
                     break;
                 case 21:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_21;
+                    SoundPlayer orcGrowl = new SoundPlayer();
+                    orcGrowl.Play();
 
                     outputLabel.Text = "You see an orc brutally cut down the executioner down and then he says to you are you friend or foe?";
 
@@ -335,6 +350,8 @@ namespace Adventure_Game
                     break;
                 case 22:
                     pictureBox1.BackgroundImage = Properties.Resources.Adventure_game_scene_18;
+                    SoundPlayer death = new SoundPlayer();
+                    death.Play();
 
                     outputLabel.Text = "The orc takes his axe chops your head off(Press M to continue)";
 

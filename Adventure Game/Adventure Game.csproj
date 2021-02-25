@@ -171,5 +171,29 @@
   <ItemGroup>
     <None Include="Resources\88401__justincase1021__hey-hey-a.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\505390__duncancantdie__thankyou-wmv.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\243947__xtrgamr__thank-you-very-much.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\397299__theuncertainman__kill-them-all.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\165491__chripei__victory-cry-reverb-2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\413497__inspectorj__stab-metal-knife-in-lettuce-e.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\159368__huminaatio__6-o.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\407356__forthehorde68__fx-orc.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\173126__replix__death-sound-male.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
