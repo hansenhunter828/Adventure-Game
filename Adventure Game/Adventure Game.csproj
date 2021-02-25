@@ -76,6 +76,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Resources\449166__horathdrak__thank-you.ogg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -148,6 +149,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\adventure game scene 99.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\446001__breviceps__gagging-vomit-throwing-up.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\508899__nicknamelarry__sarcastic-cartoon-laughter.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\345734__noahpardo__deep-groan-3.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\165011__dan2008ds__hmmmm.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\341489__rocotilos__angry-grunt.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\323083__liamg-sfx__battle-cry-5.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\88401__justincase1021__hey-hey-a.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

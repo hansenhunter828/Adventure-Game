@@ -187,4 +187,25 @@
   <data name="adventure_game_scene_99" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\adventure game scene 99.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="battle cry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\323083__liamg-sfx__battle-cry-5.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\345734__noahpardo__deep-groan-3.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grunt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\341489__rocotilos__angry-grunt.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\88401__justincase1021__hey-hey-a.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hmmm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\165011__dan2008ds__hmmmm.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="laugh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\508899__nicknamelarry__sarcastic-cartoon-laughter.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="vomit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\446001__breviceps__gagging-vomit-throwing-up.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

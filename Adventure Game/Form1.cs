@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Media; 
 
 namespace Adventure_Game
 {
@@ -79,6 +80,7 @@ namespace Adventure_Game
                 else if (scene == 1) { scene = 6; }
                 else if (scene == 2 || scene == 3 || scene == 4 || scene == 5 || scene == 6) { scene = 7; }
                 else if (scene == 8) { scene = 11; }
+                else if (scene == 11) { scene = 21; }
 
                 else if (scene == 13) { scene = 14; }
                 else if (scene == 14) { scene = 17; }
@@ -109,7 +111,7 @@ namespace Adventure_Game
                 if (scene == 0) { }
                 else if (scene == 1) { scene = 4; }
             }
-
+            SoundPlayer vomit = new SoundPlayer();
             switch (scene) 
             {
                 case 0:
@@ -128,6 +130,7 @@ namespace Adventure_Game
                     break;
                 case 2:
                     pictureBox1.BackgroundImage = Properties.Resources.Adventure_game_scene_2_6;
+                    vomit.Play();
 
                     outputLabel.Text = "You better not use any magic to get out of this you witch says the guard. What do you do?";
 
@@ -139,6 +142,7 @@ namespace Adventure_Game
                     break;
                 case 3:
                     pictureBox1.BackgroundImage = Properties.Resources.Adventure_game_scene_2_6;
+                    vomit.Play();
 
                     outputLabel.Text = "Argonian ey? what are you doing so far from the waters?";
 
@@ -161,6 +165,7 @@ namespace Adventure_Game
                     break;
                 case 5:
                     pictureBox1.BackgroundImage = Properties.Resources.Adventure_game_scene_2_6;
+                    vomit.Play();
 
                     outputLabel.Text = "Your a khajit you thief! you deserve this";
 
@@ -172,6 +177,7 @@ namespace Adventure_Game
                     break;
                 case 6:
                     pictureBox1.BackgroundImage = Properties.Resources.Adventure_game_scene_2_6;
+                    vomit.Play();
 
                     outputLabel.Text = "An orc? weve been at war with your people for years. Your one less to deal with now says the guard. What do you do?";
 
@@ -183,6 +189,8 @@ namespace Adventure_Game
                     break;
                 case 7:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_7;
+                    SoundPlayer laugh = new SoundPlayer();
+                    laugh.Play();
 
                     outputLabel.Text = "Haha very  funny your first now.";
                     
@@ -192,6 +200,8 @@ namespace Adventure_Game
                     break;
                 case 8:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_8_and_9;
+                    SoundPlayer groan = new SoundPlayer();
+                    groan.Play();
 
                     outputLabel.Text = "Thanks but your still on the list. Get in line.";
 
@@ -200,6 +210,8 @@ namespace Adventure_Game
                     break;
                 case 9:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_8_and_9;
+                    SoundPlayer hmmm = new SoundPlayer();
+                    hmmm.Play();
 
                     outputLabel.Text = "Your a quite one ey?(Press M to continue)";
                     
@@ -209,6 +221,8 @@ namespace Adventure_Game
                     break;
                 case 10:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_8_and_9;
+                    SoundPlayer grunt = new SoundPlayer();
+                    grunt.Play();
 
                     outputLabel.Text = "Save it for the block the guards tells you.";
 
@@ -218,6 +232,8 @@ namespace Adventure_Game
                     break;
                 case 11:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_11;
+                    SoundPlayer battleCry = new SoundPlayer();
+                    battleCry.Play();
 
                     outputLabel.Text = "An orc army attacks the compound. The guards get distracted and give you time to escape. What do you do?";
 
@@ -226,6 +242,8 @@ namespace Adventure_Game
                     break;
                 case 12:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_12;
+                    SoundPlayer hey = new SoundPlayer();
+                    hey.Play();
 
                     outputLabel.Text = "Look I know you were about to be executed but Ill pardon you if you aid us says a guard. What do you do?";
 
@@ -475,5 +493,14 @@ namespace Adventure_Game
             }
         }
 
+        private void yellowLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
