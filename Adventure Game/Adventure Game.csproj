@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +79,75 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Adventure game scene 1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Adventure game scene 2-6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adventure game scene 7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adventure game scene 8 and 9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adventure game scene 11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adventure game scene 12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adventure game scene 14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adventure game scene 15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adventure game scene 16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adventure game scene 17.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adventure game scene 19.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Adventure game scene 18.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adventurea game scene 20.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adventure game scene 21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adventure ame scene 27.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adventure game scene 28.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adventure game scene 29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adventure ame scene 30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adventure ame scene 31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Adventure game scene 32.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adventure game scene 33.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adventure game scene 34.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adventure game scene 99.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
