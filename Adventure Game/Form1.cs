@@ -222,6 +222,8 @@ namespace Adventure_Game
 
                     redLabel.Text = "Please no! I dont want to die.(Beg)";
                     blueLabel.Text = "(Remain Silent)";
+
+                    yellowLabel.Text = "";
                     break;
                 case 9:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_8_and_9;
