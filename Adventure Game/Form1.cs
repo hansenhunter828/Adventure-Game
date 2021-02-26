@@ -253,6 +253,7 @@ namespace Adventure_Game
 
                     redLabel.Text = "Join the nords";
                     blueLabel.Text = "Join the orcs";
+                    yellowLabel.Text = "";
                     break;
                 case 12:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_12;
@@ -548,16 +549,6 @@ namespace Adventure_Game
 
 
             }
-        }
-
-        private void yellowLabel_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
