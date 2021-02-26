@@ -29,12 +29,12 @@ namespace Adventure_Game
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.redLabel = new System.Windows.Forms.Label();
             this.greenLabel = new System.Windows.Forms.Label();
             this.yellowLabel = new System.Windows.Forms.Label();
             this.blueLabel = new System.Windows.Forms.Label();
             this.outputLabel = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.brownLabel = new System.Windows.Forms.Label();
             this.mLabel = new System.Windows.Forms.Label();
             this.nLabel = new System.Windows.Forms.Label();
@@ -42,6 +42,7 @@ namespace Adventure_Game
             this.vLabel = new System.Windows.Forms.Label();
             this.spaceLabel = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -85,15 +86,6 @@ namespace Adventure_Game
             this.outputLabel.Size = new System.Drawing.Size(877, 77);
             this.outputLabel.TabIndex = 4;
             this.outputLabel.Text = "Welcome to my game. Please press the M key to continue";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(-2, 120);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(575, 335);
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
             // 
             // brownLabel
             // 
@@ -156,6 +148,15 @@ namespace Adventure_Game
             this.linkLabel1.Size = new System.Drawing.Size(0, 17);
             this.linkLabel1.TabIndex = 12;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(-2, 120);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(575, 335);
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -174,8 +175,9 @@ namespace Adventure_Game
             this.Controls.Add(this.yellowLabel);
             this.Controls.Add(this.greenLabel);
             this.Controls.Add(this.redLabel);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Super Cool Game";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
