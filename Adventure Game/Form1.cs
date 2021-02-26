@@ -17,6 +17,7 @@ namespace Adventure_Game
         public Form1()
         {
             InitializeComponent();
+            pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_0;
         }
 
 
@@ -64,6 +65,7 @@ namespace Adventure_Game
                 else if (scene == 33) { scene = 35; }
                 else if (scene == 35) { scene = 99; }
                 else if (scene == 37) { scene = 99; }
+                else if (scene == 38) { scene = 12; }
 
                 else if (scene == 99) { scene = 0; }
             }
@@ -81,6 +83,7 @@ namespace Adventure_Game
                 else if (scene == 2 || scene == 3 || scene == 4 || scene == 5 || scene == 6) { scene = 7; }
                 else if (scene == 8) { scene = 11; }
                 else if (scene == 11) { scene = 21; }
+                else if (scene == 12) { scene = 38; }
 
                 else if (scene == 13) { scene = 14; }
                 else if (scene == 14) { scene = 17; }
@@ -111,9 +114,19 @@ namespace Adventure_Game
                 if (scene == 0) { }
                 else if (scene == 1) { scene = 4; }
             }
+            else if (e.KeyCode == Keys.P) 
+            { 
+                if (scene == 0) { scene = 39; } 
+            }
+
             SoundPlayer vomit = new SoundPlayer();
             SoundPlayer victoryCry = new SoundPlayer();
             SoundPlayer hey = new SoundPlayer();
+            SoundPlayer battleCry = new SoundPlayer();
+            SoundPlayer death = new SoundPlayer();
+            SoundPlayer orcGrowl = new SoundPlayer();
+            SoundPlayer thankYou = new SoundPlayer();
+
             switch (scene) 
             {
                 case 0:
@@ -234,7 +247,6 @@ namespace Adventure_Game
                     break;
                 case 11:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_11;
-                    SoundPlayer battleCry = new SoundPlayer();
                     battleCry.Play();
 
                     outputLabel.Text = "An orc army attacks the compound. The guards get distracted and give you time to escape. What do you do?";
@@ -253,7 +265,6 @@ namespace Adventure_Game
                     break;
                 case 13:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_12;
-                    SoundPlayer thankYou = new SoundPlayer();
                     thankYou.Play();
 
                     outputLabel.Text = "Thank you Ill make sure my higher ups know what you have done. We must hurry to aid the men at the front gate";
@@ -340,7 +351,6 @@ namespace Adventure_Game
                     break;
                 case 21:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_21;
-                    SoundPlayer orcGrowl = new SoundPlayer();
                     orcGrowl.Play();
 
                     outputLabel.Text = "You see an orc brutally cut down the executioner down and then he says to you are you friend or foe?";
@@ -350,7 +360,6 @@ namespace Adventure_Game
                     break;
                 case 22:
                     pictureBox1.BackgroundImage = Properties.Resources.Adventure_game_scene_18;
-                    SoundPlayer death = new SoundPlayer();
                     death.Play();
 
                     outputLabel.Text = "The orc takes his axe chops your head off(Press M to continue)";
@@ -361,7 +370,7 @@ namespace Adventure_Game
                     break;
                 case 23:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_21;
-
+                    battleCry.Play();
                     outputLabel.Text = "Good he says he hands you a spare battle axe and tells you to aid them in defeating the nords. What do you do?";
 
                     redLabel.Text = "Fight the nords";
@@ -369,6 +378,7 @@ namespace Adventure_Game
                     break;
                 case 37:
                     pictureBox1.BackgroundImage = Properties.Resources.Adventure_game_scene_18;
+                    death.Play();
 
                     outputLabel.Text = "As you start running away you feel a sharp pain in your back as you fall to the ground and die(Press M to continue)";
 
@@ -378,6 +388,7 @@ namespace Adventure_Game
                     break;
                 case 24:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_21;
+                    orcGrowl.Play();
 
                     outputLabel.Text = "You fight with the orcs hacking and slashing at every nord you see until the battle is won.";
                     outputLabel.Text = "You fight pretty well. Would you like to join our army?";
@@ -387,6 +398,7 @@ namespace Adventure_Game
                     break;
                 case 25:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_21;
+                    orcGrowl.Play();
 
                     outputLabel.Text = "Ah well ok then but you really are a great fighter.";
                     outputLabel.Text += "I wish you well and if you ever want to join we would be happy to recruit you(Press M to continue)";
@@ -397,6 +409,7 @@ namespace Adventure_Game
                     break;
                 case 26:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_21;
+                    orcGrowl.Play();
 
                     outputLabel.Text = "Thats great hear lets get you some armor for out next raid on the next nord compound";
                     outputLabel.Text += "You get your armor and you head off for the next battle do you small talk with some orcs or stay quite?";
@@ -406,6 +419,8 @@ namespace Adventure_Game
                     break;
                 case 27:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_ame_scene_27;
+                    SoundPlayer wolf = new SoundPlayer();
+                    wolf.Play();
 
                     outputLabel.Text = "You party gets ambushed by wolves do you attack them or tend the wounded?";
 
@@ -414,6 +429,8 @@ namespace Adventure_Game
                     break;
                 case 28:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_28;
+                    SoundPlayer sword = new SoundPlayer();
+                    sword.Play();
 
                     outputLabel.Text = "You attack and slaughter the pack of wolves and let the wounded orc bleed out and die.(Press M to continue";
 
@@ -423,6 +440,7 @@ namespace Adventure_Game
                     break;
                 case 29:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_29;
+                    thankYou.Play();
 
                     outputLabel.Text = "You tend the wounded orc and he thanks you.(Press M to continue)";
 
@@ -432,6 +450,8 @@ namespace Adventure_Game
                     break;
                 case 30:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_ame_scene_30;
+                    SoundPlayer hmph = new SoundPlayer();
+                    hmph.Play();
 
                     outputLabel.Text = "You try to talk to the orcs but none of them seem to want to talk so you spend the travel alone.(Press M to continue)";
 
@@ -441,6 +461,8 @@ namespace Adventure_Game
                     break;
                 case 31:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_ame_scene_31;
+                    SoundPlayer whistle = new SoundPlayer();
+                    whistle.Play();
 
                     outputLabel.Text = "You stay quite the entire travel(Press M to continue";
 
@@ -458,6 +480,7 @@ namespace Adventure_Game
                     break;
                 case 33:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_33;
+                    battleCry.Play();
 
                     outputLabel.Text = "As you charge at the compound you see the air fill with arrows and you see your allies falling until your the last one alive";
                     outputLabel.Text += "\nYou see nords surrounding you do you fight them or surrender?";
@@ -469,6 +492,8 @@ namespace Adventure_Game
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_34;
 
                     outputLabel.Text = "as you stay behind and watch the charge you hear a growl and as you turn around you see a hungry saber cat.(Press M to continue)";
+                    SoundPlayer saberCat = new SoundPlayer();
+                    saberCat.Play();
 
                     blueLabel.Text = "";
                     redLabel.Text = "";
@@ -476,6 +501,8 @@ namespace Adventure_Game
                     break;
                 case 35:
                     pictureBox1.BackgroundImage = Properties.Resources.Adventure_game_scene_1;
+                    SoundPlayer soldierMarch = new SoundPlayer();
+                    soldierMarch.Play();
 
                     outputLabel.Text = "you surrender to the nords and notice that you are in the same position you were when the orcs saved you but";
                     outputLabel.Text += "\nthis time you know no one will save you. The executioner chops your head off and you die(Press M to continue)";
@@ -486,6 +513,7 @@ namespace Adventure_Game
                     break;
                 case 36:
                     pictureBox1.BackgroundImage = Properties.Resources.Adventure_game_scene_18;
+                    battleCry.Play();
 
                     outputLabel.Text = "You yell I will never surrender as you get hit with arrow after arrow after arrow and you die(Press M to continue)";
 
@@ -493,8 +521,20 @@ namespace Adventure_Game
                     redLabel.Text = "";
                     yellowLabel.Text = "";
                     break;
+                case 38:
+                    pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_99;
+                    outputLabel.Text = "Only one mission is available in this demo.Please buy the full game to get the full experience(Press M to continue";
+                    break;
+                case 39:
+                    pictureBox1.BackgroundImage = Properties.Resources.adventire_game_scene_39;
+
+                    outputLabel.Text = "";
+                    linkLabel1.Text = "https://www.youtube.com/watch?v=d1YBv2mWll0";
+                    break;
                 case 99:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_99;
+                    thankYou.Play();
+
                     outputLabel.Text = "Thank you for playing! Do You want to play again?";
 
                     redLabel.Text = "Yes";

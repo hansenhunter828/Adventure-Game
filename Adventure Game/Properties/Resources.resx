@@ -118,6 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="adventire_game_scene_39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\adventire game scene 39.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="adventurea_game_scene_20" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\adventurea game scene 20.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -129,6 +132,9 @@
   </data>
   <data name="adventure_ame_scene_31" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\adventure ame scene 31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="adventure_game_scene_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\adventure game scene 0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Adventure_game_scene_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Adventure game scene 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -187,7 +193,7 @@
   <data name="adventure_game_scene_99" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\adventure game scene 99.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="battle cry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="battleCry" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\323083__liamg-sfx__battle-cry-5.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="death" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -205,6 +211,9 @@
   <data name="hmmm" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\165011__dan2008ds__hmmmm.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="hmph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\415345__owly-bee__hmph.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="kill them all" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\397299__theuncertainman__kill-them-all.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -217,8 +226,17 @@
   <data name="orc noise" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\407356__forthehorde68__fx-orc.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="saberCat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\146968__zabuhailo__catgrowls.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="soldierMarch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\393019__josecruz98__marcha-se-acerca.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="stab" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\413497__inspectorj__stab-metal-knife-in-lettuce-e.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\441666__ethanchase7744__sword-slash.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="thank you" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\243947__xtrgamr__thank-you-very-much.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -228,5 +246,11 @@
   </data>
   <data name="vomit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\446001__breviceps__gagging-vomit-throwing-up.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="whistle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\146887__tgfcoder__innocent-whistle.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="wolf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\139924__y89312__41.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

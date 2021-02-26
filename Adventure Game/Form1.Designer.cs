@@ -41,6 +41,7 @@ namespace Adventure_Game
             this.bLabel = new System.Windows.Forms.Label();
             this.vLabel = new System.Windows.Forms.Label();
             this.spaceLabel = new System.Windows.Forms.Label();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -147,11 +148,20 @@ namespace Adventure_Game
             this.spaceLabel.TabIndex = 11;
             this.spaceLabel.Text = "space";
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Location = new System.Drawing.Point(49, 58);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(0, 17);
+            this.linkLabel1.TabIndex = 12;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(979, 450);
+            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.spaceLabel);
             this.Controls.Add(this.vLabel);
             this.Controls.Add(this.bLabel);
@@ -188,6 +198,7 @@ namespace Adventure_Game
         private System.Windows.Forms.Label bLabel;
         private System.Windows.Forms.Label vLabel;
         private System.Windows.Forms.Label spaceLabel;
+        private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }
 

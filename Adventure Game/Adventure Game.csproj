@@ -195,5 +195,29 @@
   <ItemGroup>
     <None Include="Resources\173126__replix__death-sound-male.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\139924__y89312__41.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\441666__ethanchase7744__sword-slash.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\415345__owly-bee__hmph.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\146887__tgfcoder__innocent-whistle.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\146968__zabuhailo__catgrowls.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\393019__josecruz98__marcha-se-acerca.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adventire game scene 39.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adventure game scene 0.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -63,6 +63,16 @@ namespace Adventure_Game.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap adventire_game_scene_39 {
+            get {
+                object obj = ResourceManager.GetObject("adventire_game_scene_39", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap adventure_ame_scene_27 {
             get {
                 object obj = ResourceManager.GetObject("adventure_ame_scene_27", resourceCulture);
@@ -86,6 +96,16 @@ namespace Adventure_Game.Properties {
         internal static System.Drawing.Bitmap adventure_ame_scene_31 {
             get {
                 object obj = ResourceManager.GetObject("adventure_ame_scene_31", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap adventure_game_scene_0 {
+            get {
+                object obj = ResourceManager.GetObject("adventure_game_scene_0", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -293,9 +313,9 @@ namespace Adventure_Game.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
-        internal static System.IO.UnmanagedMemoryStream battle_cry {
+        internal static System.IO.UnmanagedMemoryStream battleCry {
             get {
-                return ResourceManager.GetStream("battle cry", resourceCulture);
+                return ResourceManager.GetStream("battleCry", resourceCulture);
             }
         }
         
@@ -347,6 +367,15 @@ namespace Adventure_Game.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream hmph {
+            get {
+                return ResourceManager.GetStream("hmph", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream kill_them_all {
             get {
                 return ResourceManager.GetStream("kill them all", resourceCulture);
@@ -383,9 +412,36 @@ namespace Adventure_Game.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream saberCat {
+            get {
+                return ResourceManager.GetStream("saberCat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream soldierMarch {
+            get {
+                return ResourceManager.GetStream("soldierMarch", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream stab {
             get {
                 return ResourceManager.GetStream("stab", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream sword {
+            get {
+                return ResourceManager.GetStream("sword", resourceCulture);
             }
         }
         
@@ -413,6 +469,24 @@ namespace Adventure_Game.Properties {
         internal static System.IO.UnmanagedMemoryStream vomit {
             get {
                 return ResourceManager.GetStream("vomit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream whistle {
+            get {
+                return ResourceManager.GetStream("whistle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream wolf {
+            get {
+                return ResourceManager.GetStream("wolf", resourceCulture);
             }
         }
     }
