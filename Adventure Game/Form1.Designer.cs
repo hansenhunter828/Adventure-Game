@@ -49,93 +49,127 @@ namespace Adventure_Game
             // redLabel
             // 
             this.redLabel.AutoSize = true;
+            this.redLabel.BackColor = System.Drawing.Color.Transparent;
+            this.redLabel.Font = new System.Drawing.Font("MV Boli", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.redLabel.ForeColor = System.Drawing.Color.White;
             this.redLabel.Location = new System.Drawing.Point(625, 200);
             this.redLabel.Name = "redLabel";
-            this.redLabel.Size = new System.Drawing.Size(0, 17);
+            this.redLabel.Size = new System.Drawing.Size(0, 28);
             this.redLabel.TabIndex = 0;
             // 
             // greenLabel
             // 
             this.greenLabel.AutoSize = true;
+            this.greenLabel.BackColor = System.Drawing.Color.Transparent;
+            this.greenLabel.Font = new System.Drawing.Font("MV Boli", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.greenLabel.ForeColor = System.Drawing.Color.White;
             this.greenLabel.Location = new System.Drawing.Point(625, 317);
             this.greenLabel.Name = "greenLabel";
-            this.greenLabel.Size = new System.Drawing.Size(0, 17);
+            this.greenLabel.Size = new System.Drawing.Size(0, 28);
             this.greenLabel.TabIndex = 1;
             // 
             // yellowLabel
             // 
             this.yellowLabel.AutoSize = true;
+            this.yellowLabel.BackColor = System.Drawing.Color.Transparent;
+            this.yellowLabel.Font = new System.Drawing.Font("MV Boli", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.yellowLabel.ForeColor = System.Drawing.Color.Transparent;
             this.yellowLabel.Location = new System.Drawing.Point(625, 277);
             this.yellowLabel.Name = "yellowLabel";
-            this.yellowLabel.Size = new System.Drawing.Size(0, 17);
+            this.yellowLabel.Size = new System.Drawing.Size(0, 28);
             this.yellowLabel.TabIndex = 2;
             // 
             // blueLabel
             // 
             this.blueLabel.AutoSize = true;
+            this.blueLabel.BackColor = System.Drawing.Color.Transparent;
+            this.blueLabel.Font = new System.Drawing.Font("MV Boli", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.blueLabel.ForeColor = System.Drawing.Color.White;
             this.blueLabel.Location = new System.Drawing.Point(625, 240);
             this.blueLabel.Name = "blueLabel";
-            this.blueLabel.Size = new System.Drawing.Size(0, 17);
+            this.blueLabel.Size = new System.Drawing.Size(0, 28);
             this.blueLabel.TabIndex = 3;
             // 
             // outputLabel
             // 
-            this.outputLabel.Location = new System.Drawing.Point(46, 40);
+            this.outputLabel.BackColor = System.Drawing.Color.Transparent;
+            this.outputLabel.Font = new System.Drawing.Font("MV Boli", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.outputLabel.ForeColor = System.Drawing.Color.White;
+            this.outputLabel.Location = new System.Drawing.Point(30, 9);
             this.outputLabel.Name = "outputLabel";
-            this.outputLabel.Size = new System.Drawing.Size(877, 77);
+            this.outputLabel.Size = new System.Drawing.Size(1096, 96);
             this.outputLabel.TabIndex = 4;
             this.outputLabel.Text = "Welcome to my game. Please press the M key to continue";
+            this.outputLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // brownLabel
             // 
             this.brownLabel.AutoSize = true;
-            this.brownLabel.Location = new System.Drawing.Point(625, 360);
+            this.brownLabel.BackColor = System.Drawing.Color.Transparent;
+            this.brownLabel.Font = new System.Drawing.Font("MV Boli", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.brownLabel.ForeColor = System.Drawing.Color.White;
+            this.brownLabel.Location = new System.Drawing.Point(647, 359);
             this.brownLabel.Name = "brownLabel";
-            this.brownLabel.Size = new System.Drawing.Size(0, 17);
+            this.brownLabel.Size = new System.Drawing.Size(0, 28);
             this.brownLabel.TabIndex = 6;
             // 
             // mLabel
             // 
             this.mLabel.AutoSize = true;
-            this.mLabel.Location = new System.Drawing.Point(579, 200);
+            this.mLabel.BackColor = System.Drawing.Color.Transparent;
+            this.mLabel.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mLabel.ForeColor = System.Drawing.Color.White;
+            this.mLabel.Location = new System.Drawing.Point(579, 191);
             this.mLabel.Name = "mLabel";
-            this.mLabel.Size = new System.Drawing.Size(19, 17);
+            this.mLabel.Size = new System.Drawing.Size(31, 26);
             this.mLabel.TabIndex = 7;
             this.mLabel.Text = "M";
             // 
             // nLabel
             // 
             this.nLabel.AutoSize = true;
+            this.nLabel.BackColor = System.Drawing.Color.Transparent;
+            this.nLabel.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nLabel.ForeColor = System.Drawing.Color.White;
             this.nLabel.Location = new System.Drawing.Point(579, 277);
             this.nLabel.Name = "nLabel";
-            this.nLabel.Size = new System.Drawing.Size(18, 17);
+            this.nLabel.Size = new System.Drawing.Size(28, 26);
             this.nLabel.TabIndex = 8;
             this.nLabel.Text = "N";
             // 
             // bLabel
             // 
             this.bLabel.AutoSize = true;
-            this.bLabel.Location = new System.Drawing.Point(581, 240);
+            this.bLabel.BackColor = System.Drawing.Color.Transparent;
+            this.bLabel.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bLabel.ForeColor = System.Drawing.Color.White;
+            this.bLabel.Location = new System.Drawing.Point(579, 240);
             this.bLabel.Name = "bLabel";
-            this.bLabel.Size = new System.Drawing.Size(17, 17);
+            this.bLabel.Size = new System.Drawing.Size(24, 26);
             this.bLabel.TabIndex = 9;
             this.bLabel.Text = "B";
             // 
             // vLabel
             // 
             this.vLabel.AutoSize = true;
+            this.vLabel.BackColor = System.Drawing.Color.Transparent;
+            this.vLabel.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vLabel.ForeColor = System.Drawing.Color.White;
             this.vLabel.Location = new System.Drawing.Point(581, 317);
             this.vLabel.Name = "vLabel";
-            this.vLabel.Size = new System.Drawing.Size(17, 17);
+            this.vLabel.Size = new System.Drawing.Size(25, 26);
             this.vLabel.TabIndex = 10;
             this.vLabel.Text = "V";
             // 
             // spaceLabel
             // 
             this.spaceLabel.AutoSize = true;
-            this.spaceLabel.Location = new System.Drawing.Point(581, 360);
+            this.spaceLabel.BackColor = System.Drawing.Color.Transparent;
+            this.spaceLabel.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.spaceLabel.ForeColor = System.Drawing.Color.White;
+            this.spaceLabel.Location = new System.Drawing.Point(579, 359);
             this.spaceLabel.Name = "spaceLabel";
-            this.spaceLabel.Size = new System.Drawing.Size(46, 17);
+            this.spaceLabel.Size = new System.Drawing.Size(60, 26);
             this.spaceLabel.TabIndex = 11;
             this.spaceLabel.Text = "space";
             // 
@@ -149,6 +183,7 @@ namespace Adventure_Game
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(-2, 120);
             this.pictureBox1.Name = "pictureBox1";
@@ -160,7 +195,8 @@ namespace Adventure_Game
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(979, 450);
+            this.BackgroundImage = global::Adventure_Game.Properties.Resources.Adventure_Game_BackGround1;
+            this.ClientSize = new System.Drawing.Size(1138, 450);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.spaceLabel);
             this.Controls.Add(this.vLabel);

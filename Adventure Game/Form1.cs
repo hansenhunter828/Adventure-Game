@@ -119,13 +119,13 @@ namespace Adventure_Game
                 if (scene == 0) { scene = 39; } 
             }
 
-            SoundPlayer vomit = new SoundPlayer();
-            SoundPlayer victoryCry = new SoundPlayer();
-            SoundPlayer hey = new SoundPlayer();
-            SoundPlayer battleCry = new SoundPlayer();
-            SoundPlayer death = new SoundPlayer();
-            SoundPlayer orcGrowl = new SoundPlayer();
-            SoundPlayer thankYou = new SoundPlayer();
+            SoundPlayer vomit = new SoundPlayer(Properties.Resources.vomit);
+            SoundPlayer victoryCry = new SoundPlayer(Properties.Resources.victory_cry);
+            SoundPlayer hey = new SoundPlayer(Properties.Resources.hey);
+            SoundPlayer battleCry = new SoundPlayer(Properties.Resources.battleCry);
+            SoundPlayer death = new SoundPlayer(Properties.Resources.death);
+            SoundPlayer orcGrowl = new SoundPlayer(Properties.Resources.orc_noise);
+            SoundPlayer thankYou = new SoundPlayer(Properties.Resources.thank_you);
 
             switch (scene) 
             {
@@ -149,8 +149,8 @@ namespace Adventure_Game
 
                     outputLabel.Text = "You better not use any magic to get out of this you witch says the guard. What do you do?";
 
-                    redLabel.Text = "My my, you are looking so good today kind sir.(Compliment)";
-                    blueLabel.Text = "Shut up! Your a no good nord!(Insult)";
+                    redLabel.Text = "My my, you are looking so good today kind sir.";
+                    blueLabel.Text = "Shut up! Your a no good nord!";
                     yellowLabel.Text = "(Remain Silent)";
                     greenLabel.Text = "";
                     brownLabel.Text = "";
@@ -161,8 +161,8 @@ namespace Adventure_Game
 
                     outputLabel.Text = "Argonian ey? what are you doing so far from the waters?";
 
-                    redLabel.Text = "My my, you are looking so good today kind sir.(Compliment)";
-                    blueLabel.Text = "Shut up! Your a no good nord!(Insult)";
+                    redLabel.Text = "My my, you are looking so good today kind sir.";
+                    blueLabel.Text = "Shut up! Your a no good nord!";
                     yellowLabel.Text = "(Remain Silent)";
                     greenLabel.Text = "";
                     brownLabel.Text = "";
@@ -172,8 +172,8 @@ namespace Adventure_Game
 
                     outputLabel.Text = "Im sorry brother you have to go this way";
 
-                    redLabel.Text = "My my, you are looking so good today kind sir.(Compliment)";
-                    blueLabel.Text = "Shut up! Your a no good nord!(Insult)";
+                    redLabel.Text = "My my, you are looking so good today kind sir.";
+                    blueLabel.Text = "Shut up! Your a no good nord!";
                     yellowLabel.Text = "(Remain Silent)";
                     greenLabel.Text = "";
                     brownLabel.Text = "";
@@ -184,8 +184,8 @@ namespace Adventure_Game
 
                     outputLabel.Text = "Your a khajit you thief! you deserve this";
 
-                    redLabel.Text = "My my, you are looking so good today kind sir.(Compliment)";
-                    blueLabel.Text = "Shut up! Your a no good nord!(Insult)";
+                    redLabel.Text = "My my, you are looking so good today kind sir.";
+                    blueLabel.Text = "Shut up! Your a no good nord!";
                     yellowLabel.Text = "(Remain Silent)";
                     greenLabel.Text = "";
                     brownLabel.Text = "";
@@ -196,15 +196,15 @@ namespace Adventure_Game
 
                     outputLabel.Text = "An orc? weve been at war with your people for years. Your one less to deal with now says the guard. What do you do?";
 
-                    redLabel.Text = "My my, you are looking so good today kind sir.(Compliment)";
-                    blueLabel.Text = "Shut up! Your a no good nord!(Insult)";
+                    redLabel.Text = "My my, you are looking so good today kind sir.)";
+                    blueLabel.Text = "Shut up! Your a no good nord!";
                     yellowLabel.Text = "(Remain Silent)";
                     greenLabel.Text = "";
                     brownLabel.Text = "";
                     break;
                 case 7:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_7;
-                    SoundPlayer laugh = new SoundPlayer();
+                    SoundPlayer laugh = new SoundPlayer(Properties.Resources.laugh);
                     laugh.Play();
 
                     outputLabel.Text = "Haha very  funny your first now.";
@@ -215,19 +215,19 @@ namespace Adventure_Game
                     break;
                 case 8:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_8_and_9;
-                    SoundPlayer groan = new SoundPlayer();
+                    SoundPlayer groan = new SoundPlayer(Properties.Resources.groan);
                     groan.Play();
 
                     outputLabel.Text = "Thanks but your still on the list. Get in line.";
 
-                    redLabel.Text = "Please no! I dont want to die.(Beg)";
+                    redLabel.Text = "Please no! I dont want to die.";
                     blueLabel.Text = "(Remain Silent)";
 
                     yellowLabel.Text = "";
                     break;
                 case 9:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_8_and_9;
-                    SoundPlayer hmmm = new SoundPlayer();
+                    SoundPlayer hmmm = new SoundPlayer(Properties.Resources.hmmm);
                     hmmm.Play();
 
                     outputLabel.Text = "Your a quite one ey?(Press M to continue)";
@@ -238,7 +238,7 @@ namespace Adventure_Game
                     break;
                 case 10:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_8_and_9;
-                    SoundPlayer grunt = new SoundPlayer();
+                    SoundPlayer grunt = new SoundPlayer(Properties.Resources.grunt);
                     grunt.Play();
 
                     outputLabel.Text = "Save it for the block the guards tells you.";
@@ -263,8 +263,8 @@ namespace Adventure_Game
 
                     outputLabel.Text = "Look I know you were about to be executed but Ill pardon you if you aid us says a guard. What do you do?";
 
-                    redLabel.Text = "Yes I will help you defeat the orcs.(Accept Pardon)";
-                    blueLabel.Text = "No I will never accept your pardon(Refuse Pardon)";
+                    redLabel.Text = "Yes I will help you defeat the orcs.";
+                    blueLabel.Text = "No I will never accept your pardon";
                     break;
                 case 13:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_12;
@@ -278,7 +278,7 @@ namespace Adventure_Game
                     break;
                 case 14:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_14;
-                    SoundPlayer killThemAll = new SoundPlayer();
+                    SoundPlayer killThemAll = new SoundPlayer(Properties.Resources.kill_them_all);
                     killThemAll.Play();
 
                     outputLabel.Text = "A soldier hands you a bow and tells you to start shooting the orcs. Do you take time to aim or fire as fast as you can";
@@ -325,12 +325,12 @@ namespace Adventure_Game
                     outputLabel.Text += "The first one is the pardon I promised you and the other one is the pardon and an offer to join our army.";
                     outputLabel.Text += "What do you do?";
 
-                    redLabel.Text = "I would never join your army!(Dont Join)";
-                    blueLabel.Text = "Yes I would be happy to join your army!(Join Nords)";
+                    redLabel.Text = "I would never join your army!";
+                    blueLabel.Text = "Yes I would be happy to join your army!";
                     break;
                 case 19:
                     pictureBox1.BackgroundImage = Properties.Resources.Adventure_game_scene_18;
-                    SoundPlayer stab = new SoundPlayer();
+                    SoundPlayer stab = new SoundPlayer(Properties.Resources.stab);
                     stab.Play();
 
                     outputLabel.Text = "Thats great to hear but I lied I can never let a criminal scum like you live he says as you feel something cold plunge into you stomach as you fall over and die";
@@ -342,7 +342,7 @@ namespace Adventure_Game
                     break;
                 case 20:
                     pictureBox1.BackgroundImage = Properties.Resources.adventurea_game_scene_20;
-                    SoundPlayer ok = new SoundPlayer();
+                    SoundPlayer ok = new SoundPlayer(Properties.Resources.ok);
                     ok.Play();
 
                     outputLabel.Text = "well that sucks, well Im a man of my word you have been pardoned just make sure you dont do anything else bad";
@@ -358,8 +358,8 @@ namespace Adventure_Game
 
                     outputLabel.Text = "You see an orc brutally cut down the executioner down and then he says to you are you friend or foe?";
 
-                    redLabel.Text = "I am on your side(Friend)";
-                    blueLabel.Text = "I am not your friend! In fact I am your worst nigtmare(Foe)";
+                    redLabel.Text = "I am on your side";
+                    blueLabel.Text = "I am not your friend! In fact I am your worst nigtmare";
                     break;
                 case 22:
                     pictureBox1.BackgroundImage = Properties.Resources.Adventure_game_scene_18;
@@ -396,8 +396,8 @@ namespace Adventure_Game
                     outputLabel.Text = "You fight with the orcs hacking and slashing at every nord you see until the battle is won.";
                     outputLabel.Text = "You fight pretty well. Would you like to join our army?";
 
-                    redLabel.Text = "Yes I would love to!(Join Army)";
-                    blueLabel.Text = "No I would hate to.(Dont Join)";
+                    redLabel.Text = "Yes I would love to!";
+                    blueLabel.Text = "No I would hate to.";
                     break;
                 case 25:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_21;
@@ -422,7 +422,7 @@ namespace Adventure_Game
                     break;
                 case 27:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_ame_scene_27;
-                    SoundPlayer wolf = new SoundPlayer();
+                    SoundPlayer wolf = new SoundPlayer(Properties.Resources.wolf);
                     wolf.Play();
 
                     outputLabel.Text = "You party gets ambushed by wolves do you attack them or tend the wounded?";
@@ -432,7 +432,7 @@ namespace Adventure_Game
                     break;
                 case 28:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_28;
-                    SoundPlayer sword = new SoundPlayer();
+                    SoundPlayer sword = new SoundPlayer(Properties.Resources.sword);
                     sword.Play();
 
                     outputLabel.Text = "You attack and slaughter the pack of wolves and let the wounded orc bleed out and die.(Press M to continue";
@@ -453,7 +453,7 @@ namespace Adventure_Game
                     break;
                 case 30:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_ame_scene_30;
-                    SoundPlayer hmph = new SoundPlayer();
+                    SoundPlayer hmph = new SoundPlayer(Properties.Resources.hmph);
                     hmph.Play();
 
                     outputLabel.Text = "You try to talk to the orcs but none of them seem to want to talk so you spend the travel alone.(Press M to continue)";
@@ -464,7 +464,7 @@ namespace Adventure_Game
                     break;
                 case 31:
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_ame_scene_31;
-                    SoundPlayer whistle = new SoundPlayer();
+                    SoundPlayer whistle = new SoundPlayer(Properties.Resources.whistle);
                     whistle.Play();
 
                     outputLabel.Text = "You stay quite the entire travel(Press M to continue";
@@ -495,7 +495,7 @@ namespace Adventure_Game
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_34;
 
                     outputLabel.Text = "as you stay behind and watch the charge you hear a growl and as you turn around you see a hungry saber cat.(Press M to continue)";
-                    SoundPlayer saberCat = new SoundPlayer();
+                    SoundPlayer saberCat = new SoundPlayer(Properties.Resources.saberCat);
                     saberCat.Play();
 
                     blueLabel.Text = "";
@@ -504,7 +504,7 @@ namespace Adventure_Game
                     break;
                 case 35:
                     pictureBox1.BackgroundImage = Properties.Resources.Adventure_game_scene_1;
-                    SoundPlayer soldierMarch = new SoundPlayer();
+                    SoundPlayer soldierMarch = new SoundPlayer(Properties.Resources.soldierMarch);
                     soldierMarch.Play();
 
                     outputLabel.Text = "you surrender to the nords and notice that you are in the same position you were when the orcs saved you but";
@@ -538,7 +538,7 @@ namespace Adventure_Game
                     pictureBox1.BackgroundImage = Properties.Resources.adventure_game_scene_99;
                     thankYou.Play();
 
-                    outputLabel.Text = "Thank you for playing! Do You want to play again?";
+                    outputLabel.Text = "Thank you for playing! Do you want to play again?";
 
                     redLabel.Text = "Yes";
                     blueLabel.Text = "No";

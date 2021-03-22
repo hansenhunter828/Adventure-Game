@@ -103,6 +103,16 @@ namespace Adventure_Game.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Adventure_Game_BackGround1 {
+            get {
+                object obj = ResourceManager.GetObject("Adventure Game BackGround1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap adventure_game_scene_0 {
             get {
                 object obj = ResourceManager.GetObject("adventure_game_scene_0", resourceCulture);
